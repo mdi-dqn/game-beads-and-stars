@@ -1,4 +1,3 @@
-//*Be Name Khoda*//
 #include<iostream>
 #include<conio.h>
 #include<string>
@@ -16,7 +15,7 @@ class bazi{
 		string a,b;   //a=name player A , b=name player B
 	public:
 		bazi();
-		~bazi() {cout<<"\n\nProgrammer:\n\t    Mehdi Dehqan;\n\t    Mahmood Parsa;";_sleep(2000);}
+		~bazi() {cout<<"\n\nProgrammer:\n\t    Mehdi Dehqan;";_sleep(2000);}
 		void name();  //name player
 		void wall();  //divar #
 		void star();  //setareh *
@@ -397,7 +396,7 @@ r:	system("cls");
 	char cha=_getch();
 	
 	if(cha=='1') {bazi G;}
-	else if(cha=='4') {system("cls"); cout<<"\'You are out of the game\' \nProgrammer:\n\t   Mehdi Dehqan;\n\t   Mahmood Parsa;";exit(0);}
+	else if(cha=='4') {system("cls"); cout<<"\'You are out of the game\' \nProgrammer:\n\t   Mehdi Dehqan;";exit(0);}
 	//else if(cha=='2')
 	//else if(cha=='3')
 	else {goto r;}
